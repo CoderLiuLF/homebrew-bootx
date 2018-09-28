@@ -1,6 +1,6 @@
 require 'formula'
 
-class BootXCLI < Formula
+class BootxCli < Formula
   homepage 'https://www.dtstack.com/'
   url 'https://dtstack-static.oss-cn-hangzhou.aliyuncs.com/dt-bootx/dt-bootx-cli-1.0.0-SNAPSHOT.tar.gz'
   version '1.0.0-SNAPSHOT'
