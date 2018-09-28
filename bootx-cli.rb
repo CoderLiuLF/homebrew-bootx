@@ -11,10 +11,10 @@ class BootxCli < Formula
 
   def install
   	rm Dir["*.bat"]
-    mv "boot-cli.sh", "boot-cli"
-    chmod 0755, "boot-cli"
+    mv "bootx-cli.sh", "bootx-cli"
+    chmod 0755, "bootx-cli"
 
     libexec.install Dir["*"]
-    (bin/"boot-cli").write_env_script(libexec/"boot-cli", Language::Java.java_home_env)
+    (bin/"bootx-cli").write_env_script(libexec/"bootx-cli", Language::Java.java_home_env)
   end
 end
