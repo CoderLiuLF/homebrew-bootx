@@ -2,7 +2,7 @@ require 'formula'
 
 class BootxCli < Formula
   homepage 'https://www.dtstack.com/'
-  url 'https://github.com/CoderLiuLF/dt-bootx-cli.git'
+  url 'https://github.com/CoderLiuLF/dt-bootx-cli/blob/master/dt-bootx-cli-1.0.0-SNAPSHOT.tar.gz'
   version '1.0.0-SNAPSHOT'
   sha256 '472d586fa381325677f81cb74785293727e497bcdfa8c96a1cce9760536ed815'
 
