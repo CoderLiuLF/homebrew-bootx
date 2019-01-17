@@ -2,9 +2,9 @@ require 'formula'
 
 class BootxCli < Formula
   homepage 'https://www.dtstack.com/'
-  url 'https://dtstack-static.oss-cn-hangzhou.aliyuncs.com/dt-bootx/dt-bootx-cli-1.0.0-SNAPSHOT.tar.gz'
+  url 'https://github.com/CoderLiuLF/dt-bootx-cli.git'
   version '1.0.0-SNAPSHOT'
-  sha256 'b0e66b90fb08de595815afb0ad616bd74fbfb97360b6d512fb2ab7836e9878c9'
+  sha256 '472d586fa381325677f81cb74785293727e497bcdfa8c96a1cce9760536ed815'
 
   bottle :unneeded
   depends_on :java
