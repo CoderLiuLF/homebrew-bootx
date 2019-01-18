@@ -4,7 +4,7 @@ class BootxCli < Formula
   homepage 'https://www.dtstack.com/'
   url 'https://github.com/CoderLiuLF/dt-bootx-cli/raw/master/dt-bootx-cli-1.0.0-SNAPSHOT.tar.gz'
   version '1.0.0-SNAPSHOT'
-  sha256 'd0653222916e3eb037325aaee4f2012136d34535c2d02d0676c977f91f9ff8ba'
+  sha256 '669a941f35b8c370e2172a9d1ef50aadc079b25ae5ecbeb5ac45ecc758bfcb29'
 
   bottle :unneeded
   depends_on :java
